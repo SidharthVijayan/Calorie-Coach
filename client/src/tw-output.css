@@ -1,1 +1,86 @@
+/* --- Calorie Coach Tailwind-Style CSS --- */
+
+/* General layout */
+body {
+  background-color: #111827;
+  color: #f3f4f6;
+  font-family: Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+/* Card */
+.card {
+  background: linear-gradient(135deg, rgba(31, 41, 55, 0.9), rgba(55, 65, 81, 0.7));
+  backdrop-filter: blur(8px);
+  border-radius: 1.5rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  max-width: 700px;
+  width: 100%;
+}
+
+/* Titles */
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: #f9fafb;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #f9fafb;
+}
+
+/* Backend message */
+.backend-status {
+  background-color: rgba(17, 24, 39, 0.6);
+  border: 1px solid rgba(75, 85, 99, 0.8);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* Quick actions */
+.quick-actions {
+  background-color: rgba(17, 24, 39, 0.6);
+  border: 1px solid rgba(75, 85, 99, 0.8);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* Icon circle */
+.icon-badge {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff6b35, #6b46c1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  box-shadow: 0 0 20px rgba(255, 107, 53, 0.5);
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  color: #9ca3af;
+  text-align: center;
+}
 
