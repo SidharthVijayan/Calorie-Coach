@@ -11,9 +11,16 @@ function App() {
   }, []);
 
   return (
-    <div style={{ textAlign: "center", marginTop: "6rem", fontFamily: "Inter, Roboto, sans-serif" }}>
-      <h1 style={{ fontSize: "2.25rem", marginBottom: "0.75rem" }}>🔥 Calorie Coach</h1>
-      <h2 style={{ fontSize: "1.25rem", color: "#111" }}>{message}</h2>
+    <div
+      style={{
+        textAlign: "center",
+        marginTop: "6rem",
+        fontFamily: "Inter, Roboto, sans-serif",
+        color: "#222",
+      }}
+    >
+      <h1 style={{ fontSize: "2.25rem", marginBottom: "1rem" }}>🔥 Calorie Coach</h1>
+      <h2 style={{ fontSize: "1.25rem" }}>{message}</h2>
       <p style={{ color: "#666", marginTop: "0.5rem" }}>
         Frontend (React + Vite) connected to Backend (Express)
       </p>
@@ -22,4 +29,3 @@ function App() {
 }
 
 export default App;
-
