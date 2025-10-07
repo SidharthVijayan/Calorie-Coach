@@ -1,1 +1,3 @@
+This is a placeholder file for your React/Vite frontend.
+Your app's components and pages will go inside the src/ folder.
 
