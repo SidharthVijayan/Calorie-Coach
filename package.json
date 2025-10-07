@@ -1,0 +1,19 @@
+{
+  "name": "calorie-coach",
+  "version": "1.0.0",
+  "description": "AI-powered realistic calorie tracking and wellness coach",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
