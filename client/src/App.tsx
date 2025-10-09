@@ -9,14 +9,14 @@ type Chore = {
   calories: string;
 };
 
-function App() {
+export default function App() {
   const [data, setData] = useState<Chore[] | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:5000/api/chore-map")
+    fetch("http://127.0.0.1:5000/api/chore-map")
       .then((res) => {
         if (!res.ok) throw new Error(`Server returned ${res.status}`);
         return res.json();
@@ -26,6 +26,7 @@ function App() {
         setError(null);
       })
       .catch((err) => {
+        console.error("Fetch chore-map error:", err);
         setError("Unable to fetch chore map. Is backend running?");
         setData(null);
       })
@@ -77,11 +78,9 @@ function App() {
         </div>
 
         <footer style={{ marginTop: 18, color: "#94a3b8", fontSize: 12 }}>
-          Data: static sample set. You can add more chores server-side.
+          Data: static sample set served by backend /api/chore-map
         </footer>
       </div>
     </div>
   );
 }
-
-export default App;
