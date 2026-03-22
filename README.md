@@ -1,7 +1,7 @@
-# 🧠 Calorie Coach — More Than a Fitness App
+# 🧠 Calorie CoachMore Than a Fitness App
 
 ### 🌿 Concept
-**Calorie Coach** is a smart, human-first nutrition and wellness companion — not just a calorie counter.
+Calorie Coach is a smart, human-first nutrition and wellness companion — not just a calorie counter.
 
 It adjusts your goals based on your *real life variables*:
 - Stress levels 😫
